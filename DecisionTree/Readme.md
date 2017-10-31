@@ -6,3 +6,6 @@ a.	Stop if class is same in whole data set
 b.	Stop if there is no attributes remained
 c.	Stop if there is no data sets remained
 I made two functions to find best attribute in this program. Gain ratio and gini index. However, the performance of those two are same.
+
+2.	Following tree function
+In test file, there is no class name, so I should predict and write the solution
