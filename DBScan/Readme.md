@@ -1,0 +1,4 @@
+# **Summary of my algorithm**
+
+In this program, it can make clusters for the input file which only includes data points. Data points are constituted of data number, x axis, y axis, and I add one more value which is clustering number. So, this program make a few number of clusters as many as you want according to parameters such as epsilon and minimum points which means density of data points and clustering number you can choose the numbers.
+This program has two main function. First, DBSCAN function is the main function make cluster, so you should input dataset, epsilon, and minimum points as parameters. This function find neighbors and judge whether data points are in same cluster or not. The second function is expand cluster function. This function is important part of this program, which expand the cluster size using neighbor’s neighbor. 
